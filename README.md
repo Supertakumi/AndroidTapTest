@@ -4,8 +4,4 @@ Android Tap Test is an Android application which tests user's speed to tap on th
 
 #Screenshots
 
-![ScreenShot](https://raw.github.com/Supertakumi/AndroidTapTest/master/screenshot/welcome_screen.png)
-
-![ScreenShot](https://raw.github.com/Supertakumi/AndroidTapTest/master/screenshot/before_test.png)
-
-![ScreenShot](https://raw.github.com/Supertakumi/AndroidTapTest/master/screenshot/after_test.png)
+![ScreenShot](https://raw.github.com/Supertakumi/AndroidTapTest/master/screenshot/welcome_screen.png) ![ScreenShot](https://raw.github.com/Supertakumi/AndroidTapTest/master/screenshot/before_test.png) ![ScreenShot](https://raw.github.com/Supertakumi/AndroidTapTest/master/screenshot/after_test.png)
