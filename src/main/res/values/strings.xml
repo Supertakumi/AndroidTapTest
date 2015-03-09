@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Tap Test</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="homepage">www.sohilladhani.com</string>
+    <string name="welcomeText">WELCOME TO TAP TEST</string>
+    <string name="instructText">Tap this button 10 times and see how fast you are!</string>
+</resources>
