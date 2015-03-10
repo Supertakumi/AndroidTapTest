@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 
     private Button tapButton;
     private Button resetButton;
-    private int count = 0;
+    private int count = 1;
     private long elapsedTime = 0;
     private StopWatch stopWatch = new StopWatch();
     private TextView scoreText;
@@ -37,18 +37,17 @@ public class MainActivity extends Activity {
         tapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (count == 0 && tapButton.isEnabled()) {
+                if (count == 1 && tapButton.isEnabled()) {
                     stopWatch.start();
                     count++;
-                } else if (count > 0 && count <= 10) {
+                } else if (count >= 2 && count <= 9 && tapButton.isEnabled()) {
                     count++;
                 } else {
-                    count = 0;
                     elapsedTime = stopWatch.getElapsedTime();
                     stopWatch.stop();
                     stopWatch.reset();
                     tapButton.setEnabled(false);
-                    if(!tapButton.isEnabled()){
+                    if (!tapButton.isEnabled()) {
                         tapButton.setBackgroundColor(getResources().getColor(R.color.fbutton_color_asbestos));
                         tapButton.setClickable(false);
                         tapButton.setPressed(true);
